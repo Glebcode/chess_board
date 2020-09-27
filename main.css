@@ -1,0 +1,374 @@
+.chess_board {
+    width: 450px;
+    height: 450px;
+}
+
+.chess_board div:nth-child(even) {
+    width: 50px;
+    height: 50px;
+    background: rgb(112, 51, 7);
+    position: absolute;
+}
+
+.chess_board div:nth-child(odd) {
+    width: 50px;
+    height: 50px;
+    background: rgb(212, 191, 175);
+    position: absolute;
+}
+
+#top {
+    position: absolute;
+    background: rgb(212, 191, 175);
+    height: 25px;
+    width: 450px;
+    left: 0%;
+    top: 0%;
+}
+
+#bottom {
+    position: absolute;
+    background: rgb(212, 191, 175);
+    height: 25px;
+    width: 450px;
+    left: 0%;
+    top: 425px;
+}
+
+#right {
+    position: absolute;
+    background: rgb(212, 191, 175);
+    height: 400px;
+    width: 25px;
+    left: 425px;
+    top: 25px;
+}
+
+#left {
+    position: absolute;
+    background: rgb(212, 191, 175);
+    height: 400px;
+    width: 25px;
+    left: 0%;
+    top: 25px;
+}
+
+.square1 {
+    top: 25px;
+    left: 25px;
+}
+
+.square2 {
+    top: 25px;
+    left: 75px;
+}
+
+.square3 {
+    top: 25px;
+    left: 125px;
+}
+
+.square4 {
+    top: 25px;
+    left: 175px;
+}
+
+.square5 {
+    top: 25px;
+    left: 225px;
+}
+
+.square6 {
+    top: 25px;
+    left: 275px;
+}
+
+.square7 {
+    top: 25px;
+    left: 325px;
+}
+
+.square8 {
+    top: 25px;
+    left: 375px;
+}
+
+.square16 {
+    top: 75px;
+    left: 25px;
+}
+
+.square15 {
+    top: 75px;
+    left: 75px;
+}
+
+.square14 {
+    top: 75px;
+    left: 125px;
+}
+
+.square13 {
+    top: 75px;
+    left: 175px;
+}
+
+.square12 {
+    top: 75px;
+    left: 225px;
+}
+
+.square11 {
+    top: 75px;
+    left: 275px;
+}
+
+.square10 {
+    top: 75px;
+    left: 325px;
+}
+
+.square9 {
+    top: 75px;
+    left: 375px;
+}
+
+.square17 {
+    top: 125px;
+    left: 25px;
+}
+
+.square18 {
+    top: 125px;
+    left: 75px;
+}
+
+.square19 {
+    top: 125px;
+    left: 125px;
+}
+
+.square20 {
+    top: 125px;
+    left: 175px;
+}
+
+.square21 {
+    top: 125px;
+    left: 225px;
+}
+
+.square22 {
+    top: 125px;
+    left: 275px;
+}
+
+.square23 {
+    top: 125px;
+    left: 325px;
+}
+
+.square24 {
+    top: 125px;
+    left: 375px;
+}
+
+.square32 {
+    top: 175px;
+    left: 25px;
+}
+
+.square31 {
+    top: 175px;
+    left: 75px;
+}
+
+.square30 {
+    top: 175px;
+    left: 125px;
+}
+
+.square29 {
+    top: 175px;
+    left: 175px;
+}
+
+.square28 {
+    top: 175px;
+    left: 225px;
+}
+
+.square27 {
+    top: 175px;
+    left: 275px;
+}
+
+.square26 {
+    top: 175px;
+    left: 325px;
+}
+
+.square25 {
+    top: 175px;
+    left: 375px;
+}
+
+.square33 {
+    top: 225px;
+    left: 25px;
+}
+
+.square34 {
+    top: 225px;
+    left: 75px;
+}
+
+.square35 {
+    top: 225px;
+    left: 125px;
+}
+
+.square36 {
+    top: 225px;
+    left: 175px;
+}
+
+.square37 {
+    top: 225px;
+    left: 225px;
+}
+
+.square38 {
+    top: 225px;
+    left: 275px;
+}
+
+.square39 {
+    top: 225px;
+    left: 325px;
+}
+
+.square40 {
+    top: 225px;
+    left: 375px;
+}
+
+.square48 {
+    top: 275px;
+    left: 25px;
+}
+
+.square47 {
+    top: 275px;
+    left: 75px;
+}
+
+.square46 {
+    top: 275px;
+    left: 125px;
+}
+
+.square45 {
+    top: 275px;
+    left: 175px;
+}
+
+.square44 {
+    top: 275px;
+    left: 225px;
+}
+
+.square43 {
+    top: 275px;
+    left: 275px;
+}
+
+.square42 {
+    top: 275px;
+    left: 325px;
+}
+
+.square41 {
+    top: 275px;
+    left: 375px;
+}
+
+
+.square49 {
+    top: 325px;
+    left: 25px;
+}
+
+.square50 {
+    top: 325px;
+    left: 75px;
+}
+
+.square51 {
+    top: 325px;
+    left: 125px;
+}
+
+.square52 {
+    top: 325px;
+    left: 175px;
+}
+
+.square53 {
+    top: 325px;
+    left: 225px;
+}
+
+.square54 {
+    top: 325px;
+    left: 275px;
+}
+
+.square55 {
+    top: 325px;
+    left: 325px;
+}
+
+.square56 {
+    top: 325px;
+    left: 375px;
+}
+.square64 {
+    top: 375px;
+    left: 25px;
+}
+
+.square63 {
+    top: 375px;
+    left: 75px;
+}
+
+.square62 {
+    top: 375px;
+    left: 125px;
+}
+
+.square61 {
+    top: 375px;
+    left: 175px;
+}
+
+.square60 {
+    top: 375px;
+    left: 225px;
+}
+
+.square59 {
+    top: 375px;
+    left: 275px;
+}
+
+.square58 {
+    top: 375px;
+    left: 325px;
+}
+
+.square57 {
+    top: 375px;
+    left: 375px;
+}
